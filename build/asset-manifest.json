@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a815b10b.chunk.css",
+    "main.js": "/static/js/main.ea636166.chunk.js",
+    "main.js.map": "/static/js/main.ea636166.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf4e4ba0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf4e4ba0.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.322f8079.chunk.js": "/static/js/2.322f8079.chunk.js",
+    "static/js/2.322f8079.chunk.js.map": "/static/js/2.322f8079.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0c2deb7a618cf47a64eaab021a71ab18.js": "/precache-manifest.0c2deb7a618cf47a64eaab021a71ab18.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.a815b10b.chunk.css.map": "/static/css/main.a815b10b.chunk.css.map",
+    "static/js/2.322f8079.chunk.js.LICENSE.txt": "/static/js/2.322f8079.chunk.js.LICENSE.txt",
+    "static/media/Aboutus.jpg": "/static/media/Aboutus.47339489.jpg",
+    "static/media/Home1.jpg": "/static/media/Home1.5820d719.jpg",
+    "static/media/Home2.jpg": "/static/media/Home2.4b165938.jpg",
+    "static/media/home.jpg": "/static/media/home.03b0b242.jpg",
+    "static/media/lu-logo.png": "/static/media/lu-logo.13687233.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf4e4ba0.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.322f8079.chunk.js",
+    "static/css/main.a815b10b.chunk.css",
+    "static/js/main.ea636166.chunk.js"
+  ]
+}
