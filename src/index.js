@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { ApolloProvider } from "react-apollo";
-import BlogApp from "./containers/Blog/BlogApp";
+// import BlogApp from "./containers/Blog/BlogApp";
 import App from "./Mainapp";
 import client from "./utils/apolloClient";
 import { BrowserRouter as Router } from "react-router-dom";
