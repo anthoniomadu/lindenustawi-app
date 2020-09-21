@@ -15,8 +15,17 @@ const Aboutus = () => {
                     <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">About Us</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text"> Founded in 2020 by a team of 6 young and passionate youths who saw the need for
+a safe space for youths like themselves.
+     Linden Ustawi provides a mix of a social platform and a blog which allows you to
+interact with others while providing you with articles carefully written and curated to
+provide best results. We seek to bridge the mental health gaps in
+society, while fostering new and healthy friendships.
+     Linden Ustawi sees  your health as more than just the physical, we care about your
+mental health too. 
+At Linden Ustawi, your overall well-being is our happy place.
+</p>
+                        
                     </div>
                     </div>
                 </div>
