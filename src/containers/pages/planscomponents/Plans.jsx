@@ -1,19 +1,21 @@
 import React from 'react';
 import './pricing.css'
-
+import free from '/Users/kamsiyochimokpala/Documents/GitHub/lindenustawi-app/src/Static/Img/blog3.jpg';
+import free2 from '/Users/kamsiyochimokpala/Documents/GitHub/lindenustawi-app/src/Static/Img/blog1.jpg';
+import free3 from '/Users/kamsiyochimokpala/Documents/GitHub/lindenustawi-app/src/Static/Img/blog2.jpg';
 
 const PlansList = () => {
     return(
         <div>
           <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-          <h1 className="display-4">Pricing</h1>
-          <p className="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+          <h1 className="display-4">Choose Your Pricing Plan</h1>
           </div>
       
             <div className="container">
               <div className="card-deck mb-3 text-center">
                 <div className="card mb-4 shadow-sm">
                   <div className="card-header">
+                  <img src={free} class="card-img" />
                     <h4 className="my-0 font-weight-normal">Free</h4>
             </div>
             <div className="card-body">
@@ -25,11 +27,12 @@ const PlansList = () => {
                 <li>Help center access</li>
               </ul>
               
-              <button type="button" className="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+              <button type="button" className="btn btn-lg btn-block btn-outline-primary">Purchase</button>
             </div>
           </div>
           <div className="card mb-4 shadow-sm">
             <div className="card-header">
+            <img src={free2} class="card-img" />
               <h4 className="my-0 font-weight-normal">Pro</h4>
             </div>
             <div className="card-body">
@@ -40,11 +43,12 @@ const PlansList = () => {
                 <li>Priority email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary">Get started</button>
+              <button type="button" className="btn btn-lg btn-block btn-primary">Purchase</button>
             </div>
           </div>
           <div className="card mb-4 shadow-sm">
             <div className="card-header">
+            <img src={free3} class="card-img" />
               <h4 className="my-0 font-weight-normal">Enterprise</h4>
             </div>
             <div className="card-body">
