@@ -16,7 +16,7 @@ const Home = () => {
                 <Aboutus/>       
             </div>
             <br/>
-            <footer class="footer">
+            <Container class="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
@@ -53,7 +53,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </footer>
+        </Container>
     
             {/* <div>
                 <Reelcarousel/>

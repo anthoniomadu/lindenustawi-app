@@ -32,6 +32,7 @@ const BlogApp = React.lazy(() => import('./containers/Blog/BlogApp/index'));
 const App = () => {
   return (
     <Container>
+    <Container>
     <Container fluid className='w-100 p-0'> {/**Topmost container set to fluid to get from end to end of page */}
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
@@ -159,12 +160,15 @@ const App = () => {
         </Suspense>
       </Router>
     </Container>
-    <Container>
-    <div  className="footerbt container text-center">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> Linden Ustawi</a>
-    </div>
-    </Container>
+  
     </Container> 
+    <footer>
+    <div  className="footerbt container text-center">© 2020 Copyright:
+    <a href="https://lindenustawi.netlify.app/"> Linden Ustawi</a>
+    </div>
+    </footer>
+    </Container>
+    
 
   );
 }
