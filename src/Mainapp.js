@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import Home from './containers/pages/home';
+import Aboutus from './containers/pages/Aboutus';
 import logo from './Static/Img/lu-logo.png';
 import profileicon from './Static/Img/Asset1.png';
 import './App.css'
@@ -96,17 +97,17 @@ const App = () => {
                         <Nav.Link href='/blogManager'>BlogManager</Nav.Link>
                       </Nav.Item>
                     </NavLink> */}
-                    <NavLink activeClassName='is-active' to='/forum'>
+                    {/* <NavLink activeClassName='is-active' to='/forum'>
                       <Nav.Item>
                         <Nav.Link href='/forum'>Forum</Nav.Link>
                       </Nav.Item>
-                    </NavLink>
+                    </NavLink> */}
                     {/* <NavLink activeClassName='is-active' to='/forummanager'>
                       <Nav.Item>
                         <Nav.Link href='/forummanager'>ForumManager</Nav.Link>
                       </Nav.Item>
                     </NavLink> */}
-                    <NavLink activeClassName='is-active' to='/'>
+                    <NavLink activeClassName='is-active' to='/Aboutus'>
                       <Nav.Item>
                         <Nav.Link href='/'>Aboutus</Nav.Link>
                       </Nav.Item>
@@ -117,6 +118,7 @@ const App = () => {
           </Navbar>
           <Switch>
             <Route exact={true} path="/" component={Home} />
+            <Route exact={true} path="/Aboutus" component={Aboutus} />
             {/** Below is for routing to blog Manager */}
             {/* <Route exact={true} path="/blogmanager" component={BlogManager} /> */}
             {/** Below is for routing to forum Manager */}
